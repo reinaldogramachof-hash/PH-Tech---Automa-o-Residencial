@@ -1,4 +1,5 @@
 import Header from '@/components/sections/Header';
+import Services from '@/components/sections/Services';
 
 const navigation = [
   { name: 'Home', href: '#home' },
@@ -36,6 +37,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Services Section */}
+      <Services />
     </main>
   );
 }
